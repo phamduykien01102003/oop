@@ -1,0 +1,24 @@
+{
+    "name": "kienphamduy/xuong-oop",
+    "autoload": {
+        "psr-4": {
+            "Kienphamduy\\XuongOop\\": "src/"
+        },
+        "files": [
+            "helper.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "phamduykien01102003",
+            "email": "kienpdph45934@fpt.edu.vn"
+        }
+    ],
+    "require": {
+        "bramus/router": "~1.6",
+        "eftec/bladeone": "^4.13",
+        "doctrine/dbal": "^4.0",
+        "rakit/validation": "^1.4",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
